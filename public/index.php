@@ -1,6 +1,6 @@
 <?php
 
-// die('sdfasd');
+// die(__DIR__);
 
 use Illuminate\Http\Request;
 
