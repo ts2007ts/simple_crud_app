@@ -51,17 +51,19 @@ Job Listing Application is designed using Laravel Blade to Post posts and commen
     DB_DATABASE=
     DB_USERNAME=
     DB_PASSWORD=
-    
+    ```
     OR case using sqlite just use
     ```sh
     DB_CONNECTION=sqlite
+    ```
     
 ```sh
 composer install
+```
 
 ```sh
 php artisan serve
-
+```
 
 
 ## Contributing
