@@ -56,6 +56,18 @@ Job Listing Application is designed using Laravel Blade to Post posts and commen
     ```sh
     DB_CONNECTION=sqlite
     ```
+    Configure Mail (mail trap preferred)
+   ```sh
+    MAIL_MAILER=smtp
+    MAIL_HOST=sandbox.smtp.mailtrap.io
+    MAIL_PORT=2525
+    MAIL_USERNAME=
+    MAIL_PASSWORD=
+    MAIL_ENCRYPTION=null
+    MAIL_FROM_ADDRESS="info@simplecrudapp.com"
+    MAIL_FROM_NAME="${APP_NAME}"
+   ```
+   
     ```sh
     php artisan migrate
     ```
