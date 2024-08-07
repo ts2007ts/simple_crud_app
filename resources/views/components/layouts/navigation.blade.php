@@ -49,7 +49,7 @@
                                 <span class="sr-only">Open user menu</span>
                                 @auth
                                     <img class="h-8 w-8 rounded-full"
-                                        src="{{ Auth::user()->imageUrl ? url('storage/' . Auth::user()->imageUrl) : url('emptyFace.jpeg') }}"
+                                        src="{{ Auth::user()->imageUrl ? asset('storage/' . Auth::user()->imageUrl) : asset('emptyFace.jpeg') }}"
                                         alt="">
                                 @endauth
 
