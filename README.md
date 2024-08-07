@@ -23,14 +23,15 @@ Job Listing Application is designed using Laravel Blade to Post posts and commen
 
   
   - **Logged In User**:
-    - Add, edit, delete tasks
-    - Cannot edit or delete another user's post
+    - Add, edit, delete their own posts / Add, Edit, Delete their own comments 
+    - Cannot edit or delete another user's post or comments unless belongs to their own posts
   - **User**:
     - View posts
+    - Add comments
 
 - **Posts Management**
 
-  - Add, edit, delete jobs
+  - Add, edit, delete posts
 
 
 ## Setup and Installation
