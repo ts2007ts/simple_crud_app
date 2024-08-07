@@ -54,10 +54,12 @@ Job Listing Application is designed using Laravel Blade to Post posts and commen
     OR case using sqlite just use
     ```sh
     DB_CONNECTION=sqlite
-   ```sh
-   composer install
-   ```sh
-   php artisan serve
+    
+```sh
+composer install
+
+```sh
+php artisan serve
 
 
 
