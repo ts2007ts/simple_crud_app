@@ -59,6 +59,9 @@ Job Listing Application is designed using Laravel Blade to Post posts and commen
     ```sh
     php artisan migrate
     ```
+    ```sh
+    php artisan storage:link
+    ```
     
     ```sh
     composer install
