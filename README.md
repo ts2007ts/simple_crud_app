@@ -56,14 +56,17 @@ Job Listing Application is designed using Laravel Blade to Post posts and commen
     ```sh
     DB_CONNECTION=sqlite
     ```
+    ```sh
+    php artisan migrate
+    ```
     
-```sh
-composer install
-```
-
-```sh
-php artisan serve
-```
+    ```sh
+    composer install
+    ```
+    
+    ```sh
+    php artisan serve
+    ```
 
 
 ## Contributing
