@@ -43,7 +43,7 @@ Job Listing Application is designed using Laravel Blade to Post posts and commen
 
 ### Backend Setup
 1. Navigate to the project directory:
-   Create a `.env` file based on the `.env.example` and configure your environment variables incase MySQL
+   Create a `.env` file based on the `.env.example` and configure your environment variables in case MySQL
     ```sh
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
@@ -51,6 +51,7 @@ Job Listing Application is designed using Laravel Blade to Post posts and commen
     DB_DATABASE=
     DB_USERNAME=
     DB_PASSWORD=
+    
     OR case using sqlite just use
     ```sh
     DB_CONNECTION=sqlite
