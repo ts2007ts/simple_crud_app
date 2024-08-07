@@ -39,6 +39,7 @@ Job Listing Application is designed using Laravel Blade to Post posts and commen
 ### Prerequisites
 - PHP 8.2
 - composer
+- npm
 - XAMPP (if you want to use MySQL database)
 
 ### Backend Setup
@@ -77,6 +78,9 @@ Job Listing Application is designed using Laravel Blade to Post posts and commen
     
     ```sh
     composer install
+    ```
+     ```sh
+    npm install
     ```
     
     ```sh
